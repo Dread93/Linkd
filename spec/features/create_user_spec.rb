@@ -15,5 +15,4 @@ feature 'create new user' do
         
         expect(page).to have_content('Profile has been created')
         expect(User_f.last.User).to eq('User')
-    end
 end
